@@ -1,4 +1,6 @@
-#Reading only the part of the dataframe I need
+###Reading only the part of the dataframe I need 
+###but assuming that you have a full txt original file in your working directory!!!
+
 library(data.table)
 library(sqldf)
 Sys.setlocale("LC_TIME", "English")

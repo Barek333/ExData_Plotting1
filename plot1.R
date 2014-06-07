@@ -1,4 +1,6 @@
-#Reading only the part of the dataframe I need
+###Reading only the part of the dataframe I need 
+###but assuming that you have a full txt original file in your working directory!!!
+
 library(data.table)
 library(sqldf)
 #DF4 <- read.csv.sql("household_power_consumption.txt", sql = "select * from file where Date = '1/2/2007' OR '2/2/2007'",sep=";" )
